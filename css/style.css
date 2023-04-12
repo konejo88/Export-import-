@@ -1,0 +1,65 @@
+h3{
+    text-align: center;
+}
+.one{
+width: 300px;
+height: 180px;
+ margin-left: 100px;
+ margin-top: 20px;
+ font-size: 18px;
+ font-weight: 800;
+}
+img{
+    border-radius: 100px;
+}
+.three{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.two{
+    width: 300px;
+    height:180px;
+    margin-left: 100px;
+}
+.form{
+    position: absolute;
+    top: 20px;
+    left: 35%;
+    background-color: rgb(222, 242, 250);
+    width: 400px;
+    height: 420px;
+    padding: 20px;
+}
+input{
+    width: 180px;
+    height: 30px;
+}
+ input:focus { outline-color: red; } 
+.name{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 10px;
+}
+.mail{
+height: 30px;
+width: 370px;
+margin: 10px;
+}
+textarea {
+    width: 370px; 
+    height: 180px; 
+    resize: none;
+    margin-left: 10px;
+}
+textarea:focus { outline-color: red; } 
+.button{
+    background-color: rgb(159, 179, 194);
+    font-size: 16px;
+    border-radius: 15px;
+    width: 95%;
+    height: 30px;
+    margin: 10px;
+    
+}
